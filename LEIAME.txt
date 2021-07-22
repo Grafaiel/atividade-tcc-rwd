@@ -1,0 +1,55 @@
+TCC Pós Graduação RWD/2021 - UNIALFA
+Prof. Maurício "Maujor" Samy Silva
+Data das aulas: 12 e 26 junho 2021
+Deadline para entrega do TCC: 13 de julho 2021
+---------------------------------------------------------------------
+O objetivo do TCC é o desenvolvimento de uma interface responsiva.
+---------------------------------------------------------------------
+Você está recebendo a pasta denominada tcc-rwd contendo o material para solucionar o TCC. Nessa pasta constam as subpastas css e imagens e os seguintes arquivos:
+
+    index.html - Marcação HTML com estilização mínima destinada a ser o ponto de partida para desenvolver o layout responsivo.
+
+    03 arquivos de imagem: layout-mobile.jpg, layout-medium.jpg e layout-large.jpg que mostram os 3 layouts para diferentes larguras de tela (mobile - medium - large).  
+---------------------------------------------------------------------
+Diretrizes gerais:
+1) Leia os comentários e instruções inseridos na marcação HTML do arquivo index.htm 
+2) A determinação dos breakpoints fica a seu critério, mas lembre-se que não existe breakpoint pré-definido; eles dependem de cada layout a desenvolver, portanto escolha aquele que atende sua proposta de solução.
+3) Não se trata de criar uma reprodução "pixel-perfect" das imagens do layout, mas se você quiser ter uma referência use uma régua de pixel ou outra ferramenta qualquer para avaliar a proporção entre larguras.
+4) Por razões didáticas todo o CSS necessário à solução deverá ser inserido em index.html, onde indicado naquele arquivo (entre as tags <style> </style>). Não crie links para CSS.
+5) O TCC será considerado resolvido e a ele atribuida a nota final mínima para aprovação se você desenvolver pelo menos os layouts para mobile e large.
+6) A nota final será incrementada levando em consideração o seguintes "plus" no seu layout.
+   a) acréscimo do layout medium. Alunos que apresentem os 3 layouts.
+   b) apenas no layout large - apresentação dos textos dos links do menu de navegação em botões.
+   c) uso de sombras CSS nos títulos.
+   d) uso da propriedade CSS transition em links e/ou trechos de textos, onde for conveniente. 
+   e) inserção dinâmica,com uso de JavaScript do texto da data no topo da interface (Sábado, 26 de junho de 2021).
+   f) qualquer incremento adicional CSS ou JavaScript julgado pertinente.
+--------------------------------------------------------------------
+ENTREGA DO TCC.
+Tendo criado sua folha de estilos, que soluciona o TCC, devidamente incorporada no arquivo index.html crie um arquivo ZIP ou RAR e nomeie-o com o seu nome (p.ex: rafael-sacoman-mussinado.zip) contendo as pastas CSS e imagens (pastas que você está recebendo e não devem ser modificadas) e o arquivo index.html com sua solução.
+Envie o arquivo zipado para maujor@maujor.com
+--------------------------------------------------------------------
+Dica: Leia com atenção toda a documentação e examine as pastas e arquivos relativos ao TCC o mais rápido possível para certificar-se que está tudo entendido. Você tem um prazo até 01 de julho de 2021 para enviar-me um e-mail com dúvidas.        
+--------------------------------------------------------------------
+Tarcísio: Quem ainda estiver fazendo o TCC do Maujor, dicas:
+
+- Observem que o HTML e o CSS original, do jeito que está, já está meio pronto para chegar no resultado final, não precisa criar muuuuuita coisa nova. Evitem, por exemplo, colocar display block e floats em elementos que já estão na posição correta. Alterem o CSS somente quando precisarem modificar os comportamentos dos elementos.
+
+- Pensem "mobile first": façam o CSS para o tamanho mobile primeiro, tudo o que for feito nessa resolução, também vai funcionar nas outras, se for preciso definir que o link não tem sublinhado, por exemplo, definam no CSS geral e já vai funcionar em todas as resoluções, não precisa repetir declarações nos media queries seguintes.
+
+- Depois criem os media queries para cada breakpoint e apenas modifiquem o que for preciso.
+
+- Lembrem que CSS é folha de estilo em cascata. Se você definir que o .topo tem altura X e mais na frente definirem altura Y, o CSS vai ler a última declaração. O mesmo vale para media queries... Se definirem @media (min-width: 1200px) e depois @media (min-width: 600px), o que for declarado repetido no segundo 600, sobrescreve o primeiro, afinal.... 1300px se encaixa nas duas declarações... Então definam o media query menor e depois o maior.
+
+- Nesse exercício do Maujor, só é necessário utilizar Grid Layout na resolução "large", nas demais não é necessário.
+
+- Usem Grid layout para definir posição dos blocos principais. Utilizem Flex-box para os elementos internos.
+ Além do próprio material do Maujor e do Google, indico esses links como guias para flex-box e grid layout:
+
+https://origamid.com/projetos/flexbox-guia-completo/
+https://www.origamid.com/projetos/css-grid-layout-guia-completo/	 
+
+
+
+
+

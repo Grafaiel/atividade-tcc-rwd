@@ -1,0 +1,9 @@
+@import "normalize.css";
+/* box model reset https://kwz.me/h6N */
+html {
+  box-sizing: border-box;
+}
+  *, *:before, *:after {
+  box-sizing: inherit;
+}
+/* regras CSS comuns */
