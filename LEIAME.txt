@@ -49,7 +49,7 @@ Tarcísio: Quem ainda estiver fazendo o TCC do Maujor, dicas:
 https://origamid.com/projetos/flexbox-guia-completo/
 https://www.origamid.com/projetos/css-grid-layout-guia-completo/	 
 
-
+FEITO = https://jsfiddle.net/gabrielrafaiel/k8hx6nr5/4/
 
 
 
